@@ -14,5 +14,16 @@ img {
 }
 
 h1 {
+  font-family: "Comic Neue", cursive;
   color: rgb(0, 21, 255);
+}
+
+.subtitulo {
+  font-family: "Comic Neue", cursive;
+  color: red;
+}
+
+ol {
+  background-color: rgba(0, 21, 255, 0.189);
+  color: red;
 }/*# sourceMappingURL=style.css.map */
