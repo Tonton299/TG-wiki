@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 // seletor{
 // propriedade:valor;
 // }
@@ -13,6 +14,7 @@
 
 // body ao corpo do site
 body {
+  font-family: "Metrophobic", sans-serif;
   background-color: rgb(206, 244, 150); // cor de fundo
 }
 
@@ -22,7 +24,8 @@ img {
 }
 
 h1 {
-    font-family: "Comic Neue", cursive;
+  // font family definir a fonte
+  font-family: "Comic Neue", cursive;
   // color = cor
   color: rgb(0, 21, 255);
   //red, green, blue, 0 ao 255
@@ -38,6 +41,7 @@ h1 {
 ol{ // cor hexadecimal
     // # seguida de 3 pares, cada par é referente ao rgb, 00, ff
     //rgb + alpha ele é referente a uma cor com opacidade/transparencia
-    background-color: rgba(0, 21, 255, 0.189);
+    background-color: rgba(0, 21, 255, 0.317);
     color: red;
+    border-radius: 10px;
 }
